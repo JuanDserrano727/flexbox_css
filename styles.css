@@ -1,0 +1,100 @@
+/*
+Desafío de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
+archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
+*/
+
+/* Ejercicio 1: Centrar el texto en un span */
+
+/* Arrancaremos este ejercicio por ti */
+.contenedor__span_uno {
+display: block;
+text-align: center;
+}
+
+
+/* Ejercicio 2 */
+
+/* Acá va tu código */
+.titulo {
+    display: none;
+}
+
+/* Ejercicio 3 */
+
+/* Acá va tu código */
+.contenedor_objetivo__ejercicio_tres{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+/* Ejercicio 4 */
+
+/* Acá va tu código */
+#ejerciciocuatro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+
+/* Ejercicio 5 */
+
+/* Acá va tu código */
+.contenedor__ejercicio_cinco{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Ejercicio 6 */
+
+/* Acá va tu código */
+.contenedor__ejercicio_cinco span:last-child{
+align-self: flex-start;
+}
+.contenedor__ejercicio_cinco span:first-child{
+    align-self: flex-end;
+    }
+
+    /*Ejercicio 7 */
+
+    /*Acá va tu código*/
+
+    .contenedor__ejercicio_siete{
+        background-color: chartreuse;
+    }
+
+    .elementouno{
+        background-color: blue;
+        position: relative;
+        top: 100px;
+        left: 120px;
+    }
+    
+    .elementodos{
+        background-color: red;
+        position:relative;
+        top: 210px;
+        right: 30px;
+
+
+    }
+    
+    .elementotres{
+        background-color: yellow;
+        position: relative;
+        left: 150px;
+        top: 100px;
+    }
+    
+    .elementocuatro:last-of-type{
+        background-color:blueviolet;
+        position: relative;
+top: 200px;
+    }
+
